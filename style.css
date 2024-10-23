@@ -1,0 +1,48 @@
+*{
+    color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.header{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6c8c8;
+    border-bottom: 2px solid rgb(170, 79, 79);
+    box-shadow:0 5px 20px rgb(103, 43, 43);
+    padding: 0 6%
+}
+
+.bar{
+    display: none;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    /* gap: 15px; */
+}
+
+.nav ul li{
+    padding: 0 15px;
+    color: black;
+}
+
+.nav ul li:hover{
+    color: rgb(134, 41, 41);
+}
+
+.account ul{
+    display: flex;
+    gap: 15px;
+}
+
